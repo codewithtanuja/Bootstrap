@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+
+.content{
+        height: 100vh;
+        background-image: url(https://images.pexels.com/photos/1714205/pexels-photo-1714205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+        background-size: cover;
+        display: flex;
+        /* display: flex; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    
+    }
+    
+    .content p{
+         width:40rem;
+    }
+
+
+
+.container{
+    height: 100vh;
+    /* width: 250rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:tomato;
+    color: white;
+}
+
+.container p{
+    width: 50rem;
+}
+
+
+/* -------------------------------------------------------------------------------- */
+
+.templetes_top{
+    margin: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.templetes_bottam{
+     display: flex;
+     /* position: relative; */
+     justify-content: center;
+     padding: 4rem;
+}
+
+.templetes_bottam i{
+    color: tomato;
+}
+
+.templetes_bottam p{
+    /* margin: 1rem; */
+    /* padding: 1rem; */
+}
+
+
+
+/* ................................................................................. */
+  
+.images{
+    height: 100vh;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    margin: 1rem;
+    /* justify-content: center; */
+}
+
+
+/* --------------------------------------------------------------------------------- */
+
+.banner{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    color: white;
+    margin: -2rem;
+}
+
+#contact{
+    height: 100vh;
+    margin: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
